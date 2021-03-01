@@ -1,0 +1,81 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.enc28j60-tcpip-solution",
+        "version": "3.0.0",
+        "displayName": "ENC28J60 TCPIP Solutions",
+        "projectName": "enc28j60-tcpip-solution",
+        "shortDescription": "Microchip ENC28J60 Ethernet Driver and TCPIP Application Solutions",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
+		"dfp": {
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.4.87"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=4.0.1"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F26K42",
+                "versionRange": "*"
+            }
+        },
+        "author": "MCU8 Library Development Team",
+        "subcategories": [
+            "MCC",
+            [
+                "Peripherals",
+                "SPI"
+            ],
+            [
+                "Peripherals",
+                "TIMER"
+            ]
+        ],
+        "peripherals": [
+            "Interrupt",
+            "SPI",
+            "TIMER"
+        ],
+        "keywords": [
+            "MCC",
+            "ENC28J60",
+            "TCPIP",
+            "Ethernet",
+            "Curiosity HPC Board",
+            "TCPIPLite",
+			"DHCP",
+			"UDP",
+			"TCP Server",
+			"TCP Client",
+			"WiFi Click"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./readme.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }   
+    }
+}
