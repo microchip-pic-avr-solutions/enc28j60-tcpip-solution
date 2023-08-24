@@ -1,6 +1,12 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
+# ARCHIVED TCP/IP Lite solutions using ENC28J60
+
+Please refer to the following links for updated solutions for PICs and AVRs:
+- https://github.com/microchip-pic-avr-solutions/pic-tcpip-lite-enc28j60-solution
+- https://github.com/microchip-pic-avr-solutions/avr-tcpip-lite-enc28j60-solution
+
 # TCP/IP Lite solutions using ENC28J60
 
 This repository provides MPLAB X IDE projects that can work out of the box. The solutions that are included in the repository include functionality for UDP, TCP Server and TCP Client Demos. Note that the TCP/IP Lite stack needs to be serviced every 1 second and the timer callback function needs to be set to 1 second.
